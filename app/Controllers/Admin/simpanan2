@@ -1,0 +1,22 @@
+class Pages extends BaseController
+{
+public function index()
+{
+return view('pages/home');
+}
+
+public function tentang()
+{
+return view('pages/tentang');
+}
+
+public function kontak()
+{
+
+}
+}
+
+$data1 = isset($row['data1']) ? $row['data1'] : '';
+
+
+<input type="text" class="form-control" id="sampul" name="sampul" value="<?= old('sampul'); ?>">

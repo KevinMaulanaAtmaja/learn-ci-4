@@ -1,0 +1,11 @@
+ // // cara cpnnect db tanpa model
+ // $db = \Config\Database::connect();
+ // $komik = $db->query("SELECT * FROM komik");
+ // //dd($komik);
+ // foreach ($komik->getResultArray() as $row) {
+ // d($row);
+ // }
+
+ // $komikModel2 = new KomikModel();
+
+ /komik/<?= $k['slug']; ?>
